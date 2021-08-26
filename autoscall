@@ -1,0 +1,64 @@
+go to ec2 navigation pannel
+
+and select launch configurations
+
+create launch configurations
+
+name : auto
+
+select  ami
+
+select instance type
+
+additional configuratyion
+
+enable on monitoring and ebs button
+
+select keypair
+
+launch configurations has been created
+
+then move to create autoscalling
+
+create launch template
+name : auto-group
+
+launch configurations
+switch to launch template
+
+networking 
+ 
+ vpc
+ subnets
+
+
+ load balancer optional
+
+
+ health check
+ 60
+
+ cloudwatch enable
+
+ group size
+ desired capacity -3
+ minimum-1
+ maximum-5
+
+
+
+ scalling policies -optional
+
+ instancescale-in-protection
+
+ add notification
+
+ create topic
+
+ add mail
+  
+
+  tags -optional
+
+
+  finally created autoscalling group
